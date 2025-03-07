@@ -1,0 +1,4 @@
+atproto>=0.0.15
+configparser>=5.3.0
+urlextract>=1.8.0
+argparse>=1.4.0

@@ -1,0 +1,39 @@
+# Ignore external files used by the BlueSky scripts
+
+# Configuration files
+bluesky-config.ini
+
+# Output files
+find_suspended_accounts_list.txt
+detect_grifting_links_handles.txt
+detect_grifting_links_ignore_handles.txt
+unfollow_zero_posters_list.txt
+unfollow_zero_posters_ignore_list.txt
+always_unfollow_list.txt
+unfollow_excessive_reposters_list.txt
+unfollow_excessive_reposters_list_ignore-list.txt
+unfollow_blocked_follows_list.txt
+
+# Python cache and virtual environment files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+.env
+venv/
+env/
+.venv/
+
+# IDE-specific files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
+*.backup
